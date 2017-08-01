@@ -1,0 +1,50 @@
+
+<div class="clr"></div>
+  <div class="box"*ngIf="client">
+
+     <h2>{{client.name}} details</h2>
+
+
+    <p><strong>  Name      :</strong>{{client.name}}</p>
+    <p><strong>Date of Birth :</strong>{{client.dateOfBirth}}</p>
+    <p><strong>e-mail :</strong>{{client.email}}</p>
+    <p><strong>Password :</strong>{{client.password}}</p>
+    <p><strong>LK Number :</strong>{{client.brojLk}}</p>
+    <p><strong>JMBG :</strong>{{client.jmbg}}</p>
+    <p><strong>Phone Number :</strong>{{client.brojTel}}</p>
+    <p><strong>Accounts :</strong><button (click)="getAccounts()">View {{client.name}} Accounts</button>
+      <button (click)="goToAddAccount()">Add New Account</button>
+      </p>
+      <p><strong>Transactions:</strong><button (click)="getPayInTrans()">View PayIn Transactions</button>
+      <button (click)="getPayOutTrans()">View PayOut Transactions</button></p>
+    <p><strong>Address: </strong>
+      <button (click)="addressClick()">View Address Detail</button>
+      <button (click)="addAddress()">Add Address</button>
+    </p>
+    <buton id="buttongoback" (click)="goBack()">Back</buton>
+</div>
+
+<div class="moveright" *ngIf="accounts">
+  <h2 id="h2account">{{client.name}} Accounts</h2>
+     <ul>
+      <li id="accountitem"*ngFor="let account of accounts">
+         <p><strong>Id:</strong>{{account.id}}</p>
+        <p><strong>Account Number :</strong>{{account.accountNumber.no}}</p>
+         <p id="balance"><strong>Account Balance :</strong>{{account.accountBalance}}</p>
+         <p><strong>Account in Bank :</strong>{{account.accountInBank.name}}</p>
+         <button id="pay"(click)="goToPay()">Pay</button>
+
+
+         <p>
+         <button id="delete" (click)="deleteAccount()">Delete Account</button>
+       </p>
+     </li>
+   </ul>
+ </div>
+     <div class="moveright"*ngIf="address">
+       <h2>{{client.name}} Address</h2>
+       <p><strong>Street : </strong>{{address.street}}</p>
+       <p><strong>City : </strong> {{address.city}}<p>
+        <p><strong>Country : </strong>{{address.country}}</p>
+       <buton id="buttongoback" (click)="goToUpdateAddress()">Update Address</buton>
+  </div>

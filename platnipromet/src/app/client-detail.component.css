@@ -1,0 +1,72 @@
+#accountitem{
+  border: 1px solid black;
+  position: relative;
+  float:none;
+  list-style: none;
+  padding: 0.5em;
+  }
+  #h2account{
+    text-align: center;
+  }
+  #buttongoback {
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: 1px splid grey;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+  font-size: 1em;
+
+}
+#pay{
+  background-color: green;
+  color : white;
+}
+#balance{
+  color: blue;
+}
+#buttongoback.delete{
+  background-color:  #f22435;
+  color: white;
+}
+#buttongoback:hover {
+  background-color: #cfd8dc;
+}
+button {
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+.moveright{
+  position: relative;
+  float: left;
+  padding-left: 5em;
+}
+.box{
+position: relative;
+  width: 40vw;
+  height: auto;
+  border: 1px solid black;
+  padding: 3vw;
+  float: left;
+}
+p {
+  padding: left: 3vw;
+}
+#delete{
+  background-color:  #f22435;
+  color: white;
+}

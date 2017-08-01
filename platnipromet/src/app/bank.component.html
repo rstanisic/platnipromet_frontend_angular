@@ -1,0 +1,14 @@
+<h2> List Of Banks </h2>
+<button id="add" (click)="addBank()">AddNewBank</button>
+<div id="absolute"></div>
+
+  <ul>
+    <li id="bankitem" *ngFor="let bank of banks">
+      <p><strong>Bank Name :</strong> "{{bank.name}}"</p>
+      <p>{{bank.address.street}} , {{bank.address.city}} , {{bank.address.country}} </p>
+      <button (click)="updateBank()" >Update Bank</button>
+      <button id="delete" (click)="deleteBank()">Delete Bank</button>
+    </li>
+  </ul>
+  <div id="absolute"></div>
+<button id="add" (click)="goBack()">Back</button>

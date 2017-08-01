@@ -1,0 +1,49 @@
+h2{
+  text-align: center;
+}
+#bankitem{
+  border: 1px solid black;
+  position: relative;
+  float:left;
+  list-style: none;
+  padding: 0.5em;
+width: auto;
+height: auto;
+margin: 3em;
+padding: 1.5em;
+
+  }
+  #add{
+    margin-left: 6.5em;
+  float: left;
+  }
+#absolute{
+  position: re;
+  clear: both;
+}
+button {
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+
+
+p {
+  padding: left: 3vw;
+}
+#delete{
+  background-color:  #f22435;
+  color: white;
+}

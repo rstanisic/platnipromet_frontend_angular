@@ -1,0 +1,38 @@
+#update:hover{
+  background-color: #ad2733 !important;
+  color :white !important;
+}
+#update{
+  background-color: green !important;
+  color: white !important;
+}
+button {
+  margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+.box{
+
+  width: 40vw;
+  height: auto;
+  border: 1px solid black;
+  padding: 3vw;
+}
+pre {
+
+  color: grey;
+  font-family: Arial;
+  height: 1.1em;
+}

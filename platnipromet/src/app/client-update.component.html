@@ -1,0 +1,16 @@
+<div *ngIf="client">
+
+  <h2>Update {{client.name}}</h2>
+  <div class="box">
+    <pre>id:          :    {{client.id}}</pre>
+  <pre>Name                :  <input [(ngModel)]="client.name" placeholder="name"></pre>
+  <pre>Date Of Birth     :  <input [(ngModel)]="client.dateOfBirth" placeholder="yyyy/mm/dd"></pre>
+  <pre>e-mail                :  <input [(ngModel)]="client.email" placeholder="e-mail"></pre>
+  <pre>Password          :  <input [(ngModel)]="client.password" placeholder="password"></pre>
+  <pre>LK Number        :  <input [(ngModel)]="client.brojLk" placeholder="LK Number"></pre>
+  <pre>JMBG                :  <input [(ngModel)]="client.jmbg" placeholder="JMBG"></pre>
+  <pre>Phone Number  :  <input [(ngModel)]="client.brojTel" placeholder="Phone Number"></pre>
+
+</div>
+  <button (click)="goBack()">Back</button>
+  <button id="update"(click)="updateClient()">Confirm Update</button>

@@ -1,0 +1,20 @@
+<div *ngIf= "address">
+
+  <h2> Address details</h2>
+  <div>
+    <label>street :</label>{{address.street}}
+  </div>
+  <div>
+    <label>City :</label>{{address.city}}
+  </div>
+  <div>
+    <label>Country :</label>{{address.country}}
+  </div>
+
+<button>Update Address</button>
+
+<button>Delete Address</button>
+
+
+
+<button (click)= "goBack()">Back</button>

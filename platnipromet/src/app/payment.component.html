@@ -1,0 +1,81 @@
+
+
+
+<div id="uplat">
+  <h3><strong>PAYMENT ORDER</strong></h3>
+
+
+  <p id="uplatilac">Payer Info</p>
+  <input id="inupl" class="input" [(NgModel)]="payerInfo" placeholder="Name,address....."/>
+
+  <p id="svrha">Purpose of Payment</p>
+  <input id="insvr" class="input" [(NgModel)]="purposeOfPayment"  placeholder="purpose of payment.."/>
+
+  <p id="primalac">Recipient Info</p>
+  <input id="inpri"class="input" [(NgModel)]="recipientInfo" placeholder="Name , address..."/>
+  <br/><br/><br/>
+
+<input id="inpec" class="input" type="text" />
+<p id="pecat">Signature</p>
+
+<div id="vline"></div>
+
+<input id="indatupl" class="input" [(NgModel)]="dateOfTransaction"  placeholder="yyyy.mm.dd"/>
+<p id="mesto">Date Of Transaction</p>
+
+<p id="sifra">Payment code</p>
+<input id="insif" class="input">
+
+<p id="valuta">Valute</p>
+<input id="inval">
+
+<p id="iznos">Amount</p>
+<input id="inizn" class="input" type="number"[(NgModel)]="amount"  placeholder="     .00"/>
+
+<p id="racfid">Acc.ID</p>
+<input id="faccid" class="input" type="number"[(NgModell)]="fromAccount.id" placeholder="id"/>
+
+<p id="racun">Payer Account</p>
+<select id="inrac" class="input" [(NgModel)]="fromAccount.no">
+  <option [ngValue]="">click to select id and no </option>
+  <option [ngValue]="111-0000-123">id:1 no:111-0000-123</option>
+  <option [ngValue]="222-0000-123">id:2 no:222-0000-123</option>
+  <option [ngValue]="333-0000-123">id:3 no:333-0000-123</option>
+  <option [ngValue]="444-0000-123">id:4 no:444-0000-123</option>
+  <option [ngValue]="555-0000-123">id:5 no:555-0000-123</option>
+  <option [ngValue]="666-0000-123">id:6 no:666-0000-123</option>
+  <option [ngValue]="777-0000-123">id:7 no:777-0000-123</option>
+  <option [ngValue]="888-0000-123">id:8 no:888-0000-123</option>
+  <option [ngValue]="999-0000-123">id:9 no:999-0000-123</option>
+  <option [ngValue]="111-1111-123">id:10 no:111-1111-123</option>
+  <option [ngValue]="222-2222-123">id:11no:222-2222-123</option>
+  <option [ngValue]="333-3333-123">id:12no:333-3333-123</option>
+  <option [ngValue]="444-4444-123">id:13 no:444-4444-123</option>
+  <option [ngValue]="555-5555-123">id:14 no:555-5555-123</option>
+</select>
+<p id="ractid">Acc.ID</p>
+<input id="taccid" class="input" type="number"[(NgModell)]="toAccount.id" placeholder="id"/>
+
+<p id="model">Recipient Account</p>
+<select id="inpoz" [(NgModel)]="toAccount.no">
+<option [ngValue]="">click to select id and no </option>
+<option [ngValue]="111-0000-123">id:1 no:111-0000-123</option>
+<option [ngValue]="222-0000-123">id:2 no:222-0000-123</option>
+<option [ngValue]="333-0000-123">id:3 no:333-0000-123</option>
+<option [ngValue]="444-0000-123">id:4 no:444-0000-123</option>
+<option [ngValue]="555-0000-123">id:5 no:555-0000-123</option>
+<option [ngValue]="666-0000-123">id:6 no:666-0000-123</option>
+<option [ngValue]="777-0000-123">id:7 no:777-0000-123</option>
+<option [ngValue]="888-0000-123">id:8 no:888-0000-123</option>
+<option [ngValue]="999-0000-123">id:9 no:999-0000-123</option>
+<option [ngValue]="111-1111-123">id:10 no:111-1111-123</option>
+<option [ngValue]="222-2222-123">id:11no:222-2222-123</option>
+<option [ngValue]="333-3333-123">id:12no:333-3333-123</option>
+<option [ngValue]="444-4444-123">id:13 no:444-4444-123</option>
+<option [ngValue]="555-5555-123">id:14 no:555-5555-123</option>
+</select>
+
+</div>
+
+<button id="uplati" (click)="addTransaction()">Pay</button>
+<button id="back" (click)="goBack()">Back</button>

@@ -1,0 +1,17 @@
+
+<h2> Payments to Accounts </h2>
+
+<ul>
+  <li id="box" *ngFor="let transaction of transactions" >
+    <p>ID: {{transaction.id}}</p>
+    <p><strong>Amount : {{transaction.amount}}</strong></p>
+    <p>Date Of Transaction : {{transaction.dateOfTransaction}}</p>
+    <p>Payer Info : {{transaction.payerInfo}}</p>
+    <p>Purpose of Payment : {{transaction.purposeOfPayment}}</p>
+    <p>Recipient Info : {{transaction.recipientInfo}}</p>
+    <p>From Account : {{transaction.fromAccount.no}}</p>
+    <p>To Account : {{transaction.toAccount}}</p>
+  </li>
+</ul>
+
+<button (click)="goBack()">Back</button>

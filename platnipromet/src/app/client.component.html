@@ -1,0 +1,23 @@
+<div></div>
+<div class="box">
+  <h2>List of Clients</h2>
+  <button class="add"(click)="goToAddClient()">Add New Client</button>
+<ul class="clients">
+<li
+  *ngFor="let client of clients"
+  (click)="onSelect(client)"
+  [class.selected]="client === selectedClient"
+>
+  <span class="badge">{{client.id}}</span> {{client.name}}
+</li>
+</ul>
+
+
+</div>
+<div class="moveright"*ngIf="selectedClient">
+  <h2>Client :{{selectedClient.name | uppercase}}</h2>
+
+<button (click)="goToDetail()">View Detail</button>
+<button (click)="goToUpdate()">Update Client</button>
+<button class="delete"(click)="deleteClient()">Delete Client</button>
+</div>

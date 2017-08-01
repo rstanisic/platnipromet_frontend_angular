@@ -1,0 +1,255 @@
+#uplat{
+  width: 70vw;
+  height: 65vh;
+  border: 1px solid black;
+}
+h3{
+  margin-top: 2vh;
+  margin-right:2vw;
+  text-align: right;
+}
+#uplatilac{
+  font-size: 16px;
+  margin-left: 3vw;
+  margin-top: 2vh;
+}
+#inupl{
+  font-size: 16px;
+  text-align: left;
+  margin-left: 2vw;
+  height: 6vh;
+  width: 25vw;
+  border: 1px solid black;
+}
+#svrha{
+  font-size: 16px;
+  text-align: left;
+  margin-left: 3vw;
+}
+#insvr{
+  font-size: 16px;
+  text-align: left;
+  margin-left: 2vw;
+  height: 6vh;
+  width: 25vw;
+  border: 1px solid black;
+}
+#primalac{
+  font-size: 16px;
+  margin-left: 3vw;
+}
+#inpri{
+  font-size: 16px;
+  margin-left: 2vw;
+  height: 6vh;
+  width: 25vw;
+  border: 1px solid black;
+}
+#inpec{
+  font-size: 16px;
+  width: 15vw;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  margin-left: 2vw;
+}
+#pecat{
+  font-size: 16px;
+  margin-left: 3vw;
+}
+#vline{
+  font-size: 16px;
+  position: absolute;
+  width: 3px;
+  height: 32vh;
+  border-left: 1px solid black;
+  left: 32vw;
+  top: 34vh;
+}
+#inmes{
+  font-size: 16px;
+  position: absolute;
+  width: 8vw;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  left: 27vw;
+  bottom: 41vh;
+}
+#indatupl{
+  font-size: 16px;
+  position: absolute;
+  width: 7vw;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  left: 35vw;
+  bottom: 19vh;
+}
+#mesto{
+  font-size: 16px;
+  position: absolute;
+  left: 35vw;
+  bottom: 14vh;
+}
+#indat{
+  font-size: 16px;
+  position: absolute;
+  width: 15vw;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  left: 47vw;
+  bottom: 41vh;
+}
+#datum{
+  font-size: 16px;
+  position: absolute;
+  left: 52vw;
+  bottom: 36vh;
+}
+#sifra{
+  font-size: 16px;
+  position: absolute;
+  left: 35vw;
+  top: 28vh;
+  width: 4vw;
+}
+#insif{
+  font-size: 16px;
+  position: absolute;
+  width: 4vw;
+  border: 1px solid black;
+  left: 35vw;
+  top: 36vh;
+  height: 4vh;
+}
+#valuta{
+  font-size: 16px;
+  position: absolute;
+  left: 41vw;
+  top: 30vh;
+  width: 4vw;
+}
+#inval{
+  font-size: 16px;
+  position: absolute;
+  width: 4vw;
+  border: 1px solid black;
+  left: 41vw;
+  top: 36vh;
+  height: 4vh;
+}
+#iznos{
+  font-size: 16px;
+  position: absolute;
+  left: 47vw;
+  top: 30vh;
+}
+#inizn{
+  font-size: 16px;
+  position: absolute;
+  width: 21vw;
+  border: 1px solid black;
+  left: 47vw;
+  top: 36vh;
+  height: 4vh;
+}
+#racfid{
+  font-size: 16px;
+  position: absolute;
+  left :35vw;
+  top:41vh;
+}
+#faccid{
+  font-size: 16px;
+  position: absolute;
+  width: 4vw;
+  border: 1px solid black;
+  left: 35vw;
+  top :47vh;
+  height: 3vh;
+}
+#racun{
+  font-size: 16px;
+  position: absolute;
+  left: 41vw;
+  top: 41vh;
+}
+#inrac {
+  font-size: 16px;
+  position: absolute;
+  width: 27vw;
+  border: 1px solid black;
+  left: 41vw;
+  top: 47vh;
+  height: 4vh;
+}
+#ractid{
+  font-size: 16px;
+  position: absolute;
+  left: 35vw;
+  top: 52vh;
+}
+#taccid{
+  font-size: 16px;
+  position: absolute;
+  width: 4vw;
+  border: 1px solid black;
+  left: 35vw;
+  top :58vh;
+  height: 3vh;
+
+}
+
+
+#model{
+  font-size: 16px;
+  position: absolute;
+  left: 41vw;
+  top: 52vh;
+}
+
+  #inpoz{
+    font-size: 16px;
+    position: absolute;
+    width: 27vw;
+    border: 1px solid black;
+    left: 41vw;
+    top: 58vh;
+    height: 4vh;
+  }
+  #uplati{
+    position: absolute;
+    left: 55vw;
+    bottom: 2vh;
+    color: white;
+    width: 10vw;
+    height: 6vh;
+    font-size: 18px;
+    border-bottom: 1px black solid;
+background-color: green;
+
+  }
+  #uplati:hover{
+background-color: #8e1113;
+  cursor: pointer;
+  }
+  #back{
+    position: absolute;
+    left: 67vw;
+    bottom: 2vh;
+
+    width: 10vw;
+    height: 6vh;
+    font-size: 18px;
+
+  }
+
+.input{
+  padding-left: 5px;
+}

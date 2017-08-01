@@ -1,0 +1,18 @@
+<div class="box">
+
+  <h2>Add New Client</h2>
+
+<div class="box1">
+<pre>Name and Surname : <input [(NgModel)]="name" placeholder="name surname"></pre>
+<pre>Date of Birth    : <input  [(NgModel)]="dateOfBirth" placeholder="yyyy.mm.dd"></pre>
+<pre>e-mail           : <input [(NgModel)]="email" placeholder="e-mail"></pre>
+<pre>Password         : <input  [(NgModel)]="password" placeholder="password"></pre>
+<pre>LK Number        : <input [(NgModel)]="brojLk" type="number" placeholder="Lk number"></pre>
+<pre>JMBG             : <input [(NgModel)]="jmbg" type="number" placeholder="JMBG"></pre>
+<pre>Phone Number     : <input [(NgModel)]="brojTel" placeholder="Phone Number"></pre>
+  </div>
+
+  <button (click)="goBack()">Back</button>
+  <button (click)="addClient()">Add Client</button>
+
+</div>
